@@ -16,25 +16,6 @@ Este proyecto es una simple calculadora implementada en React. Permite realizar 
 - HTML
 - CSS
 
-## Estructura del Proyecto
-
-
-src/
-|-- Components/
-|   |-- Boton.js
-|   |-- BotonClear.js
-|   |-- Pantalla.js
-|   |-- Historial.js
-|
-|-- Styles/
-|   |-- App.css
-|   |-- Calculadora.css
-|   |-- Logo.css
-|
-|-- App.js
-|-- index.js
-
-
 ## Componentes Principales
 
 ### App.js
