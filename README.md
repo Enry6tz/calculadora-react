@@ -44,4 +44,3 @@ Un componente que maneja el logo y muestra un cartel al pasar el cursor sobre é
 ## Licencia
 
 Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para más detalles.
-```
