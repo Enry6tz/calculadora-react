@@ -1,0 +1,40 @@
+.boton-contenedor {
+  height: 80px;
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 24px;
+  border-radius: 10px;  
+  border: 1px solid #d1d1d1;  
+  color: #333;  
+  background-color: #f4f4f4;  
+  cursor: pointer;
+  user-select: none;
+  margin: 4px;  
+}
+
+.boton-contenedor:hover {
+  background-color: #e0e0e0;  
+}
+
+.operador {
+  background-color: #ff9500;  
+  color: white;  
+  border: 1px solid #ff9500; 
+}
+
+.boton-igual {
+  background-color: #ff9500;
+  color: white;
+  border: 1px solid #ff9500;
+}
+.numero {
+  background-color: #fff;
+  color: #333;
+}
+
+.numero:hover {
+  background-color: #e0e0e0;
+}
