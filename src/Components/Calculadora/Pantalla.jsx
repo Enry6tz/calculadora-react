@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/pantalla.css'
+import '../../css/pantalla.css'
 
 const Pantalla = ({input}) => {
   return (
