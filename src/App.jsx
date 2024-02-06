@@ -11,7 +11,7 @@ function App() {
       <>
       <BrowserRouter>
         <NavBar/>
-        <div className='App'>
+        <div className='App '>
           <div className='contenedor-pages'>
             <MyRoutes />
           </div>

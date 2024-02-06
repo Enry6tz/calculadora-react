@@ -1,19 +1,21 @@
-
 .contenedor-footer {
-    background-color: #333; 
-    color: #fff; 
+    background-color: #333;
+    color: #fff;
     text-align: center;
     padding: 10px;
-}
-
-.footer {
+    position: fixed;
+    bottom: 0;
     width: 100%;
-}
-
-.texto-footer {
+    z-index: 1000; /* Ajusta según sea necesario */
+  }
+  
+  .footer {
+    width: 100%;
+  }
+  
+  .texto-footer {
     margin: 0;
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-
+  }
+  
