@@ -1,0 +1,47 @@
+/* En tu archivo NavBar.css */
+
+.navbar-container {
+    display: flex;
+    height: 70px;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  
+
+.glass-effect{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+    -webkit-backdrop-filter: blur(0.4rem);
+  }
+  .nav-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin-right: 20px; /* Espaciado entre elementos */
+  }
+  
+  .nav-item:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último elemento para evitar exceso de espacio */
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: #fff; /* Color del texto */
+    font-size: 30px;
+    padding: 10px;
+    transition: color 0.3s, border-bottom 0.3s; /* Transición de color y subrayado para un efecto suave al pasar el ratón */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+  
+  .nav-item a:hover {
+    color: #ff9500; /* Color del texto al pasar el ratón */
+  }
+
+  .nav-item.active {
+    border-bottom: 2px solid #ff9500; /* Subrayado naranja en la página activa */
+  }

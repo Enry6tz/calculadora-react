@@ -7,7 +7,6 @@
     background-image: url('/src/img/fondoOscuro.png');
     background-size: cover;
     background-position: center;
-    height: 100%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -22,8 +21,6 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: inherit;
-    filter: blur(8px) saturate(150%);
     z-index: -1;
   }
   
@@ -37,7 +34,10 @@
     background: rgba(0, 0, 0, 0.388); 
     z-index: -1;
   }
-  
+  body {
+    overflow-y: auto;
+    min-height: 100vh;
+}
   
   .App {
     width: 100vw;

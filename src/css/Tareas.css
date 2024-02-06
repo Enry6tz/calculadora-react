@@ -1,34 +1,26 @@
- 
-  .aplicacion-tareas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .logo-react {
-    width: 100%;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .tareas-lista-principal{
-    width: 600px;
-    min-height: 500px;
-    background-color: #d0d0d5;
-    padding: 25px;
-    margin: 10px;
-    justify-content: center;
-    border-radius: 26px;
-  
-  }
-  
-  .titulo-tareas{
-    color: #1b1b32;
-    font-size: 25px;
-    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    margin: 20px 0;
-  }
+.aplicacion-tareas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tareas-lista-principal {
+  width: 600px;
+  min-height: 500px;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
+  background: rgba(255, 255, 255, 0.7); /* Fondo con opacidad */
+  backdrop-filter: blur(0.4rem);
+  -webkit-backdrop-filter: blur(0.4rem);
+}
+
+.titulo-tareas {
+  color: #ffffff; /* Texto blanco para contrastar con el fondo */
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 0;
+}
+

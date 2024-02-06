@@ -4,3 +4,10 @@
   justify-content: center;
   margin-top: 15px;
 }
+
+
+.glass-effect{
+  background: #fafafa60;
+  backdrop-filter: blur(0.4rem);
+  -webkit-backdrop-filter: blur(0.4rem);
+}

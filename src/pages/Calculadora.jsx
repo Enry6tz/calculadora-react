@@ -30,7 +30,7 @@ function Calculadora() {
 
   return (
     <div className="App">
-      <div className='contenedor-calculadora'>
+      <div className='contenedor-calculadora glass-effect'>
         <div className='fila'>
           <Pantalla input={input} />
         </div>
