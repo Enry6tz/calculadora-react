@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <div className="home-container">
             <h1 className="titulo-home">Bienvenido a mi Aplicación React</h1>
+            <h2>esto es el h2 del pull request</h2>
             <p className="descripcion-home">
                 Esta aplicación ha sido desarrollada con React, una biblioteca de JavaScript para construir interfaces de usuario interactivas.<br/>
                 Explora las diferentes secciones, como la Calculadora y las Tareas, para experimentar con las funcionalidades implementadas.<br/>
